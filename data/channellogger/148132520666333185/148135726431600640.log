@@ -1,0 +1,456 @@
+2016-04-22 16:59:17.914000 #hub @Blazyy#2607: !tlogger
+2016-04-22 16:59:18.489000 #hub @Toothy#9103: Logging enabled for #hub
+2016-04-22 17:00:29.038000 #hub @Blazyy#2607: !tload pony
+2016-04-22 17:00:29.766000 #hub @Toothy#9103: Module enabled.
+2016-04-22 17:00:33.327000 #hub @Blazyy#2607: !tjhelp
+2016-04-22 17:00:35.001000 #hub @Blazyy#2607: !thelp
+2016-04-22 17:00:48.695000 #hub @Blazyy#2607: !tponyfilter
+2016-04-22 17:00:49.152000 #hub @Toothy#9103: ```
+!tponyfilter
+
+Manages filters
+
+Filters determine what tags will not show up in the results
+
+Commands:
+  list Lists all of the filters available in the global filter list.
+  add  Adds a filter to the global filter list
+  del  Deletes a filter from the global filter list
+  set  Sets the filter for the current server
+
+Type !tponyfilter command for more info on a command.
+You can also type !tponyfilter category for more info on a category.
+```
+2016-04-22 17:01:08.223000 #hub @Blazyy#2607: !tpony dragon
+2016-04-22 17:01:08.501000 #hub @Toothy#9103: Error.
+2016-04-22 17:01:47.977000 #hub @Blazyy#2607: !tpony Rainbow
+2016-04-22 17:01:48.435000 #hub @Toothy#9103: Error.
+2016-04-22 17:02:00.520000 #hub @Blazyy#2607: !tponyr
+2016-04-22 17:02:03.229000 #hub @Toothy#9103: http://derpicdn.net/img/view/2012/7/17/46907__safe_solo_princess+celestia_filly_younger_artist-colon-lulubell.png
+2016-04-22 17:02:03.229000 #hub @Toothy#9103: http://derpicdn.net/img/view/2012/7/17/46907__safe_solo_princess+celestia_filly_younger_artist-colon-lulubell.png
+2016-04-22 17:02:11.879000 #hub @Blazyy#2607: !tpony stop
+2016-04-22 17:02:12.131000 #hub @Toothy#9103: Error.
+2016-04-22 17:03:02.251000 #hub @Blazyy#2607: !tunload pony
+2016-04-22 17:03:02.665000 #hub @Toothy#9103: Module disabled.
+2016-04-22 17:03:52.525000 #hub @Blazyy#2607: !tload pony
+2016-04-22 17:03:53.672000 #hub @Toothy#9103: Module enabled.
+2016-04-22 17:03:58.532000 #hub @Blazyy#2607: !tpony test
+2016-04-22 17:03:59.183000 #hub @Toothy#9103: Error.
+2016-04-22 17:08:57.314000 #hub @Blazyy#2607: !tpony Hi
+2016-04-22 17:08:57.590000 #hub @Toothy#9103: Error.
+2016-04-22 17:09:35.438000 #hub @Blazyy#2607: !tload punish
+2016-04-22 17:09:35.811000 #hub @Toothy#9103: Module enabled.
+2016-04-22 17:09:40.156000 #hub @Blazyy#2607: !thelop
+2016-04-22 17:09:42.084000 #hub @Blazyy#2607: !thelp
+2016-04-22 17:09:52.798000 #hub @Blazyy#2607: !tpunish
+2016-04-22 17:09:53.073000 #hub @Toothy#9103: ```
+!tpunish <user>
+
+Place a user in timeout, if the user is already in timeout, this will also remove him from it
+
+```
+2016-04-22 17:09:59.978000 #hub @Blazyy#2607: !tpunish Cosaur
+2016-04-22 17:10:00.272000 #hub @Toothy#9103: ```diff
+- The Timeout role doesn't exist. Creating!
+```
+2016-04-22 17:10:00.990000 #hub @Toothy#9103: ```diff
++ Role created! Setting channel permissions!
+! Please ensure that your moderator roles are ABOVE the timeout role!
+! Please wait until the user has been added to the Timeout role!
+```
+2016-04-22 17:10:16.067000 #hub @Blazyy#2607: !tpunish Coasur
+2016-04-22 17:10:16.351000 #hub @Toothy#9103: ```
+!tpunish <user>
+
+Place a user in timeout, if the user is already in timeout, this will also remove him from it
+
+```
+2016-04-22 17:10:26.806000 #hub @Blazyy#2607: !tpunish Cosaur
+2016-04-22 17:10:27.274000 #hub @Toothy#9103: ```diff
++ User is now in Timeout!
+```
+2016-04-22 17:12:12.821000 #hub @Blazyy#2607: !tload noflippedtables
+2016-04-22 17:12:13.173000 #hub @Toothy#9103: Module enabled.
+2016-04-22 17:12:14.483000 #hub @Blazyy#2607: !noflippedtables
+2016-04-22 17:12:18.582000 #hub @Blazyy#2607: !thelp
+2016-04-22 17:12:30.899000 #hub @Blazyy#2607: !ttableset
+2016-04-22 17:12:31.139000 #hub @Toothy#9103: ```
+!ttableset
+
+Got some nice settings for my UNflipped tables
+
+Commands:
+  flipall Enables/disables right all unflipped tables in a message
+  flipbot Enables/disables allowing bot to flip tables
+
+Type !ttableset command for more info on a command.
+You can also type !ttableset category for more info on a category.
+```
+2016-04-22 17:12:31.455000 #hub @Toothy#9103: ```
+2016-04-22 17:12:37.371000 #hub @Blazyy#2607: !flipall
+2016-04-22 17:12:42.643000 #hub @Blazyy#2607: !tfilpall
+2016-04-22 17:12:46.019000 #hub @Blazyy#2607: !tflipall
+2016-04-22 17:12:53.376000 #hub @Blazyy#2607: !tflipall
+2016-04-22 17:13:03.310000 #hub @Blazyy#2607: !ttableset flipall
+2016-04-22 17:13:03.556000 #hub @Toothy#9103: Now only one table unflipped per message.
+2016-04-22 17:13:07.397000 #hub @Blazyy#2607: (\u256fｰ\u25a1ｰ\uff09\u256f\ufe35 \u253b\u2501\u253b
+2016-04-22 17:13:08.212000 #hub @Toothy#9103: \u252c\u2500\u252c \u30ce( \u309c-\u309c\u30ce)
+
+2016-04-22 17:13:43.634000 #hub @Blazyy#2607: !tload Welcome
+2016-04-22 17:13:43.983000 #hub @Toothy#9103: That module doesn't exist.
+2016-04-22 17:13:47.801000 #hub @Blazyy#2607: !tload welcome
+2016-04-22 17:13:47.976000 #hub @Toothy#9103: Module enabled.
+2016-04-22 17:13:51.477000 #hub @Blazyy#2607: !twelcome
+2016-04-22 17:13:55.308000 #hub @Blazyy#2607: !thelp
+2016-04-22 17:14:01.873000 #hub @Blazyy#2607: !tcleanup messages 100
+2016-04-22 17:14:14.217000 #hub @Blazyy#2607: !twelcomeset
+2016-04-22 17:14:14.459000 #hub @Toothy#9103: ```
+!twelcomeset
+
+Sets welcome module settings
+
+Commands:
+  channel  Sets the channel to send the welcome message
+  toggle   Turns on/off welcoming new users to the server
+  greeting Sets the welcome message format for the server.
+
+Type !twelcomeset command for more info on a command.
+You can also type !twelcomeset category for more info on a category.
+```
+2016-04-22 17:14:14.773000 #hub @Toothy#9103: ```GREETING: Welcome {0.name} to {1.name}!
+CHANNEL: #shitposting
+ON: False
+```
+2016-04-22 18:01:19.771000 #hub @Blazyy#2607: !suck
+2016-04-22 18:01:23.976000 #hub @Blazyy#2607: !tsuck
+2016-04-22 18:01:57.842000 #hub @Blazyy#2607: !tsuck
+2016-04-22 18:01:57.995000 #hub @Toothy#9103: play https://www.youtube.com/watch?v=sv4q7JtPsW0
+2016-04-22 18:02:22.361000 #hub @Blazyy#2607: !tsuck
+2016-04-22 18:02:22.633000 #hub @Toothy#9103: !play https://www.youtube.com/watch?v=sv4q7JtPsW0
+2016-04-22 20:19:29.632000 #hub @The Arcane Brony#9669: http://derpicdn.net/img/view/2016/4/22/1137839__safe_princess+luna_princess+celestia_discord_food_moon_offscreen+character_cheese_artist-colon-flutterluv_edible+heavenly+object.jpeg
+2016-04-22 20:19:39.251000 #hub @The Arcane Brony#9669: Omg
+2016-04-22 20:20:58.669000 #hub @The Arcane Brony#9669: Toothy is best bot :3
+2016-04-22 20:21:18.228000 #hub @The Arcane Brony#9669: It supports derpicdn
+2016-04-22 20:21:48.389000 #hub @The Arcane Brony#9669: Aka derpibooru
+2016-04-22 20:34:08.383000 #hub @The Arcane Brony#9669: hope ya enjoy
+2016-04-25 17:42:07.852000 #hub @Blazyy#2607: Hello dragons who are @here , how are you guys doing, I feel I don't talk slot to you guys
+2016-04-25 17:49:33.417000 #hub @Nordir#2186: you don't talk slot to us \U0001f626
+2016-04-25 18:39:45.393000 #hub @Officialy#9401: o/
+2016-04-25 18:58:46.730000 #hub @Blazyy#2607: \o
+2016-04-25 18:59:59.164000 #hub @Blazyy#2607: !tpony lol
+2016-04-25 19:00:00.485000 #hub @Toothy#9103: http://derpicdn.net/img/view/2016/4/20/1136382__safe_solo_rarity_clothes_vector_crossover_cosplay_costume_league+of+legends_lol.png
+2016-04-25 19:00:00.485000 #hub @Toothy#9103: http://derpicdn.net/img/view/2016/4/20/1136382__safe_solo_rarity_clothes_vector_crossover_cosplay_costume_league+of+legends_lol.png
+2016-04-25 19:00:41.032000 #hub @Blazyy#2607: !tpony death
+2016-04-25 19:00:41.631000 #hub @Toothy#9103: http://derpicdn.net/img/view/2016/4/24/1139073__oc_crying_alicorn_semi-dash-grimdark_blood_sad_alicorn+oc_angry_fire_death.png
+2016-04-25 19:00:41.631000 #hub @Toothy#9103: http://derpicdn.net/img/view/2016/4/24/1139073__oc_crying_alicorn_semi-dash-grimdark_blood_sad_alicorn+oc_angry_fire_death.png
+2016-04-27 16:44:08.206000 #hub @Blazyy#2607: Who is up for a stream @here ?
+2016-04-27 16:44:22.589000 #hub @Harrival#0381: not me
+2016-04-27 16:44:23.680000 #hub @Cosaur#8461: sure
+2016-04-27 16:44:25.261000 #hub @Harrival#0381: jk im down
+2016-04-27 16:44:44.370000 #hub @Cheesecake#2039: sure
+2016-04-27 16:48:20.850000 #hub @Nordir#2186: no
+2016-04-27 16:48:25.585000 #hub @Nordir#2186: jk
+2016-04-27 16:52:19.251000 #hub @Cosaur#8461: /smite @Blazyy
+2016-04-27 16:52:44.225000 #hub @Halowrocks#3012: You do realise there's a streaming channel?
+2016-04-27 16:52:48.301000 #hub @Cosaur#8461: yes
+2016-04-27 16:52:56.381000 #hub @Halowrocks#3012: then y aint u using it
+2016-04-27 16:52:59.446000 #hub @Halowrocks#3012: its there for a reason
+2016-04-27 16:53:03.961000 #hub @Cosaur#8461: liar
+2016-04-27 16:53:11.095000 #hub @Cosaur#8461: its there for no reason
+2016-04-27 16:53:25.096000 #hub @Cosaur#8461: also by yes i mean no
+2016-04-27 16:53:36.766000 #hub @Halowrocks#3012: its called ''STREAMING'' channel
+2016-04-27 16:53:42.026000 #hub @Halowrocks#3012: ''STREAMING''
+2016-04-27 16:54:22.588000 #hub @Cheesecake#2039: its stream info
+2016-04-27 16:54:39.840000 #hub @Cosaur#8461: told u u were lieing
+2016-04-27 16:54:46.252000 #hub @Blazyy#2607: Im asking if you guys would watch a stream
+2016-04-27 16:54:58.642000 #hub @Blazyy#2607: question is
+2016-04-27 16:55:01.942000 #hub @Blazyy#2607: What game?
+2016-04-27 16:55:03.695000 #hub @Blazyy#2607: !tpoll
+2016-04-27 16:55:05.999000 #hub @Toothy#9103: poll question;option1;option2 (...)
+2016-04-27 16:57:16.397000 #hub @Blazyy#2607: Gues
+2016-04-27 16:57:17.701000 #hub @Blazyy#2607: Games
+2016-04-27 16:57:18.496000 #hub @Blazyy#2607: what
+2016-04-27 16:57:20.802000 #hub @Blazyy#2607: gameshall
+2016-04-27 16:57:21.677000 #hub @Blazyy#2607: me
+2016-04-27 16:57:21.870000 #hub @Cosaur#8461: speedrunners
+2016-04-27 16:57:23.492000 #hub @Blazyy#2607: play
+2016-04-27 16:57:35.748000 #hub @Cheesecake#2039: ~play
+2016-04-27 16:57:36.927000 #hub @OmniBot#0672: I am now active in your voice channel, Use this command: ~play <Link/Search Term>
+2016-04-27 16:57:38.946000 #hub @Cheesecake#2039: ~suck
+2016-04-27 16:57:39.158000 #hub @OmniBot#0672: Playing requested link...
+2016-04-27 16:57:59.337000 #hub @Cheesecake#2039: MINCERAPT
+2016-04-27 16:57:59.337000 #hub @Cheesecake#2039: EDIT: 
+Before: MINCERAPT
+After: MINCERAFT
+2016-04-27 16:58:12.389000 #hub @Blazyy#2607: !tpoll What Game;SpeedRunners;Minecraft;NOTHING YOU SUCK AT STREAMING""
+2016-04-27 16:58:12.578000 #hub @Toothy#9103: ```
+!tpoll [text...]
+
+Starts/stops a poll
+
+Usage example:
+poll Is this a poll?;Yes;No;Maybe
+poll stop
+
+```
+2016-04-27 16:58:20.977000 #hub @Blazyy#2607: !tpoll What Game;SpeedRunners;Minecraft;NOTHING YOU SUCK AT STREAMING
+2016-04-27 16:58:21.286000 #hub @Toothy#9103: **POLL STARTED!**
+
+ What Game
+
+1. *SpeedRunners*
+2. *Minecraft*
+3. *NOTHING YOU SUCK AT STREAMING*
+
+Type the number to vote!
+2016-04-27 16:58:27.925000 #hub @Blazyy#2607: @here
+2016-04-27 16:58:27.918000 #hub @Halowrocks#3012: 3
+2016-04-27 16:58:29.974000 #hub @Halowrocks#3012: \U0001f603
+2016-04-27 16:58:34.105000 #hub @Cheesecake#2039: 3
+2016-04-27 16:58:34.720000 #hub @Cheesecake#2039: 2
+2016-04-27 16:58:35.283000 #hub @Cheesecake#2039: 1
+2016-04-27 16:58:36.360000 #hub @Cheesecake#2039: 2
+2016-04-27 16:58:38.158000 #hub @Cosaur#8461: 1
+2016-04-27 16:58:41.144000 #hub @Cheesecake#2039: 3
+2016-04-27 16:58:48.517000 #hub @river58#2247: 3
+2016-04-27 16:58:50.315000 #hub @river58#2247: :mappa
+2016-04-27 16:58:51.804000 #hub @Cheesecake#2039: 2
+2016-04-27 16:59:18.232000 #hub @Blazyy#2607: i am going to take this literly btw
+2016-04-27 16:59:19.014000 #hub @Blazyy#2607: :p
+2016-04-27 16:59:21.650000 #hub @Toothy#9103: **POLL ENDED!**
+
+ What Game
+
+*SpeedRunners* - 1 votes
+*Minecraft* - 0 votes
+*NOTHING YOU SUCK AT STREAMING* - 3 votes
+
+2016-04-27 16:59:24.350000 #hub @Cheesecake#2039: ~fuckyou
+2016-04-27 16:59:24.429000 #hub @Cosaur#8461: plz dont
+2016-04-27 16:59:24.792000 #hub @OmniBot#0672: Playing requested link...
+2016-04-27 16:59:26.540000 #hub @Blazyy#2607: well
+2016-04-27 16:59:29.334000 #hub @Blazyy#2607: NOt streamign
+2016-04-27 16:59:31.074000 #hub @Blazyy#2607: \U0001f61b
+2016-04-27 16:59:38.564000 #hub @Cosaur#8461: ffs
+2016-04-27 16:59:45.219000 #hub @Blazyy#2607: You guys bought this upon yoursselff
+2016-04-27 16:59:52.911000 #hub @Cheesecake#2039: ;-;
+2016-04-27 16:59:53.545000 #hub @Nordir#2186: LOL
+2016-04-27 17:00:13.095000 #hub @Cheesecake#2039: ~airhorn
+2016-04-27 17:00:13.512000 #hub @OmniBot#0672: Playing requested link...
+2016-04-27 17:00:34.879000 #hub @Cheesecake#2039: ~blacklist
+2016-04-27 17:00:35.109000 #hub @OmniBot#0672: ```
+~blacklist
+
+Bans user from using the bot
+
+Commands:
+  add    Adds user to bot's blacklist
+  remove Removes user to bot's blacklist
+
+Type ~blacklist command for more info on a command.
+You can also type ~blacklist category for more info on a category.
+```
+2016-04-27 17:00:41.277000 #hub @Cheesecake#2039: ~blacklit add
+2016-04-27 17:00:41.277000 #hub @Cheesecake#2039: EDIT: 
+Before: ~blacklit add
+After: ~blacklist add
+2016-04-27 17:01:07.176000 #hub @Cheesecake#2039: ~blacklist add @Halowrocks
+2016-04-27 17:01:07.531000 #hub @OmniBot#0672: User has been added to blacklist.
+2016-04-27 17:01:35.025000 #hub @Cheesecake#2039: ~play
+2016-04-27 17:01:35.295000 #hub @OmniBot#0672: I am now active in your voice channel, Use this command: ~play <Link/Search Term>
+2016-04-27 17:02:47.431000 #hub @Halowrocks#3012: 1
+2016-04-27 17:02:52.408000 #hub @Cheesecake#2039: 2
+2016-04-27 17:02:52.632000 #hub @Cheesecake#2039: 2
+2016-04-27 17:02:53.037000 #hub @Cheesecake#2039: 2
+2016-04-27 17:02:53.320000 #hub @Cheesecake#2039: 2
+2016-04-27 17:02:53.611000 #hub @Cheesecake#2039: 2
+2016-04-27 17:02:55.889000 #hub @Blazyy#2607: https://surl.im/i/tufaz
+2016-04-27 17:02:56.952000 #hub @Blazyy#2607: i quit
+2016-04-27 17:02:55.889000 #hub @Blazyy#2607: https://surl.im/i/tufaz
+2016-04-27 17:03:52.515000 #hub @Halowrocks#3012: power ab00s xD
+2016-04-27 17:04:14.378000 #hub @Halowrocks#3012: when they mute you you know you've won
+2016-04-27 17:05:24.507000 #hub @Cheesecake#2039: ~stop
+2016-04-27 17:05:42.029000 #hub @Harrival#0381: im glad that poll happened its my fav game
+2016-04-27 17:07:06.565000 #hub @Blazyy#2607: https://feedback.discordapp.com/forums/326712-discord-dream-land
+2016-04-27 17:07:06.565000 #hub @Blazyy#2607: https://feedback.discordapp.com/forums/326712-discord-dream-land
+2016-04-27 17:10:39.785000 #hub @Blazyy#2607: https://feedback.discordapp.com/forums/326712-discord-dream-land/suggestions/10598142-logging-administrative-actions
+2016-04-27 17:10:39.785000 #hub @Blazyy#2607: https://feedback.discordapp.com/forums/326712-discord-dream-land/suggestions/10598142-logging-administrative-actions
+2016-04-27 17:11:47.850000 #hub @Cheesecake#2039: https://feedback.discordapp.com/forums/326712-discord-dream-land/suggestions/13619202-make-people-time-out-in-voice-channel-after-10-min
+2016-04-27 17:11:47.850000 #hub @Cheesecake#2039: https://feedback.discordapp.com/forums/326712-discord-dream-land/suggestions/13619202-make-people-time-out-in-voice-channel-after-10-min
+2016-04-27 17:12:34.716000 #hub @Blazyy#2607: !tcleanup messages 100
+2016-04-27 17:12:42.249000 #hub @Cheesecake#2039: https://feedback.discordapp.com/forums/326712-discord-dream-land/suggestions/13619202-make-people-time-out-in-voice-channel-after-10-min
+2016-04-27 17:17:53.481000 #hub @Cheesecake#2039: for my senpai xD
+2016-04-29 20:32:27.130000 #hub @thefiremonkey#9761: can you hear me
+2016-04-29 20:33:47.870000 #hub @thefiremonkey#9761: Dreadnought
+2016-04-30 13:23:32.119000 #hub @Blazy#2607: Im making a background for mehself
+2016-04-30 13:23:32.503000 #hub @Blazy#2607: :p
+2016-04-30 13:23:35.280000 #hub @Blazy#2607: Custom
+2016-04-30 13:24:14.017000 #hub @Cheesecake#2039: gg
+2016-04-30 13:26:52.123000 #hub @Blazy#2607: 
+2016-04-30 13:42:49.057000 #hub @thefiremonkey#9761: hi
+2016-04-30 13:43:13.906000 #hub @thefiremonkey#9761: hello
+2016-04-30 13:43:15.477000 #hub @thefiremonkey#9761: bye
+2016-04-30 13:43:27.364000 #hub @Blazy#2607: 10
+2016-04-30 13:43:29.902000 #hub @Blazy#2607: outta
+2016-04-30 13:43:30.500000 #hub @Blazy#2607: 10
+2016-04-30 13:43:34.738000 #hub @Blazy#2607: Would greet again
+2016-04-30 13:53:19.817000 #hub @Cheesecake#2039: xD
+2016-05-01 09:08:49.787000 #hub @Blazy#2607: http://prntscr.com/ayz8ef
+2016-05-01 09:08:49.787000 #hub @Blazy#2607: http://prntscr.com/ayz8ef
+2016-05-01 09:36:44.280000 #hub @Blazy#2607: !tsnap
+2016-05-01 09:36:44.457000 #hub @Toothy#9103: Add me on snapchat!: http://i.imgur.com/BbV8efY.jpg
+2016-05-01 09:36:46.465000 #hub @Blazy#2607: @here
+2016-05-01 09:37:00.984000 #hub @\U0001f680 Quasarr#1375: ?
+2016-05-01 09:37:17.915000 #hub @Blazy#2607: ?
+2016-05-01 09:37:31.899000 #hub @Blazy#2607: I did at here for toothy
+2016-05-01 09:37:36.103000 #hub @Blazy#2607: Since he posted my snap
+2016-05-01 09:37:41.783000 #hub @Cheesecake#2039: add me: legitcheesecake
+2016-05-01 09:37:52.712000 #hub @Cheesecake#2039: 
+2016-05-01 09:38:27.387000 #hub @Blazy#2607: !tsnapcheese
+2016-05-01 09:38:29.082000 #hub @Cheesecake#2039: !tsnapcheese
+2016-05-01 09:38:38.305000 #hub @Blazy#2607: !tsnapcheese
+2016-05-01 09:38:49.294000 #hub @Blazy#2607: !tcleanup messages 10
+2016-05-01 09:53:37.666000 #hub @Blazy#2607: !tsnacktime
+2016-05-01 09:53:37.935000 #hub @Toothy#9103: If you Talk, Toothy will come! \u3008( ^o^)\u30ce
+2016-05-01 09:53:44.958000 #hub @Blazy#2607: Can we get toothy to give us fish?
+2016-05-01 09:53:47.233000 #hub @Blazy#2607: TalkK!!
+2016-05-01 09:57:56.486000 #hub @Blazy#2607: !tsnackset deliver
+2016-05-01 09:57:56.740000 #hub @Toothy#9103: `\u0295 表u1d25表u0294 < Oh you guys want snacks?! Aight, I'll come around every so often to hand some out!`
+2016-05-01 09:58:04.664000 #hub @Blazy#2607: @here  ^^
+2016-05-01 09:59:16.439000 #hub @Cheesecake#2039: !tsong
+2016-05-01 09:59:16.724000 #hub @Toothy#9103: [Drumstep] - Rogue - From The Dust [Monstercat Release]
+Link : "https://youtube.com/watch?v=W059cpGOKok"
+2016-05-01 09:59:16.724000 #hub @Toothy#9103: [Drumstep] - Rogue - From The Dust [Monstercat Release]
+Link : "https://youtube.com/watch?v=W059cpGOKok"
+2016-05-01 09:59:22.864000 #hub @Blazy#2607: !tsnackset deliver
+2016-05-01 09:59:23.101000 #hub @Toothy#9103: `\u0295 表u1d25表u0294 < You guys don't want snacks anymore? Alright, I'll stop comin around.`
+2016-05-01 09:59:27.442000 #hub @Blazy#2607: !treload snacktime
+2016-05-01 09:59:27.713000 #hub @Toothy#9103: Module reloaded.
+2016-05-01 09:59:29.768000 #hub @Blazy#2607: !tsnackset deliver
+2016-05-01 09:59:29.925000 #hub @Toothy#9103: `\u0295 表u1d25表u0294 < Oh you guys want Fish?! Aight, I'll come around every so often to hand some out!`
+2016-05-01 09:59:44.193000 #hub @Cheesecake#2039: !tplay stonebank the pressure
+2016-05-01 09:59:44.444000 #hub @Toothy#9103: I added this song to the queue for you Rawr~
+2016-05-01 10:01:26.542000 #hub @Blazy#2607: !treload snacktime
+2016-05-01 10:01:26.893000 #hub @Toothy#9103: Module reloaded.
+2016-05-01 10:01:29.876000 #hub @Blazy#2607: !tcleanup messages 10
+2016-05-01 10:09:28.882000 #hub @Blazy#2607: !treload snacktime
+2016-05-01 10:09:29.042000 #hub @Toothy#9103: Module reloaded.
+2016-05-01 10:09:44.665000 #hub @Blazy#2607: !tqueue  D-WHY - One Day (Prod. Dave Cappa)
+2016-05-01 10:09:44.849000 #hub @Toothy#9103: A song  has been put into the queue by Blazy#2607.
+2016-05-01 10:13:54.579000 #hub @Blazy#2607: !taddcom blah blah
+2016-05-01 10:13:54.916000 #hub @Toothy#9103: Custom command successfully added.
+2016-05-01 10:14:36.639000 #hub @Cheesecake#2039: !taddcom
+2016-05-01 10:14:36.942000 #hub @Toothy#9103: ```
+!taddcom <command> <text>
+
+Adds a custom command
+
+Example:
+!addcom yourcommand Text you want
+
+```
+2016-05-01 10:14:47.356000 #hub @Blazy#2607: !tcustomcommands
+2016-05-01 10:33:25.268000 #hub @Blazy#2607: !addcom adminrestart Bot is restarting!, Be right back!
+2016-05-01 10:33:34.802000 #hub @Blazy#2607: !tsnackset deliver
+2016-05-01 10:33:34.983000 #hub @Toothy#9103: `\u0295 表u1d25表u0294 < You guys don't want Fishies anymore? Alright, I'll stop comin around.`
+2016-05-01 10:33:36.122000 #hub @Blazy#2607: !tsnackset deliver
+2016-05-01 10:33:36.375000 #hub @Toothy#9103: `\u0295 表u1d25表u0294 < Oh you guys want Fish?! Aight, I'll come around every so often to hand some out!`
+2016-05-01 10:34:36.240000 #hub @Blazy#2607: !tadminreload
+2016-05-01 10:34:53.967000 #hub @Blazy#2607: !tadminrestart
+2016-05-01 10:34:54.345000 #hub @Toothy#9103: Bot is restarting!, Be right back!
+2016-05-01 10:37:57.158000 #hub @Blazy#2607: !tadminready
+2016-05-01 11:18:52.670000 #hub @Blazy#2607: !tsnap
+2016-05-01 11:18:53.017000 #hub @Toothy#9103: Add me on snapchat!: http://i.imgur.com/BbV8efY.jpg
+2016-05-01 11:18:53.017000 #hub @Toothy#9103: Add me on snapchat!: http://i.imgur.com/BbV8efY.jpg
+2016-05-02 11:55:31.032000 #hub @Blazy#2607: !tadmin ready
+2016-05-02 14:58:27.297000 #hub @Cheesecake#2039: >:)
+2016-05-03 18:39:55.032000 #hub @Blazy#2607: Hey @here Here is a chance to win a free steam game! Consider this setting: You are tasked with killing the alrighty blaze the dragon, however you need to lure/trick him so that he will come out his cave, Your going to get famous and alot of money for doing this - What do you do?
+2016-05-03 18:40:15.698000 #hub @Fluxie#0926: i fuck his ass
+2016-05-03 18:40:23.638000 #hub @Fluxie#0926: he gets happy and goes out
+2016-05-03 18:40:25.672000 #hub @Blazy#2607: (these will be random things ill say every now and then, So stay in discord!)
+2016-05-03 18:41:05.744000 #hub @Blazy#2607: 5 reponses in order to be valiad btw
+2016-05-03 18:41:09.540000 #hub @Blazy#2607: Or a reallyyy good one
+2016-05-03 18:41:25.409000 #hub @Blazy#2607: <@!109738696768516096>
+2016-05-03 18:41:27.297000 #hub @Blazy#2607: DO IT
+2016-05-03 18:41:36.661000 #hub @Blazy#2607: Oh and <@!163000211898105856>
+2016-05-03 18:41:40.271000 #hub @Blazy#2607: And @Magic Monkey
+2016-05-03 18:41:46.918000 #hub @Blazy#2607: Tagg all the peopleee
+2016-05-03 18:42:06.315000 #hub @Cosaur#8461: I get a massive pile of hay and light it on fire. if it does not come out i just blow something up. when  it comes out i just cause a landslide over its head and kill it
+2016-05-03 18:42:21.093000 #hub @Blazy#2607: fair nuff
+2016-05-03 18:42:25.490000 #hub @Blazy#2607: Your the best so fair.
+2016-05-03 18:42:27.293000 #hub @Blazy#2607: *far
+2016-05-03 18:43:13.581000 #hub @Cosaur#8461: then kick it in the face
+2016-05-03 18:43:22.314000 #hub @Fluxie#0926: i will go next to him
+2016-05-03 18:43:23.950000 #hub @Fluxie#0926: fuck him
+2016-05-03 18:43:27.340000 #hub @Fluxie#0926: and he will get out
+2016-05-03 18:43:30.919000 #hub @Fluxie#0926: cuz he liked it
+2016-05-03 18:43:35.652000 #hub @Fluxie#0926: \U0001f604
+2016-05-03 18:43:38.065000 #hub @Blazy#2607: ffs
+2016-05-03 18:43:42.698000 #hub @Cosaur#8461: yeeeeee
+2016-05-03 18:43:55.076000 #hub @Fluxie#0926: xD
+2016-05-03 18:45:00.013000 #hub @Fluxie#0926: i have to go
+2016-05-03 18:45:01.728000 #hub @Fluxie#0926: bye
+2016-05-03 18:45:41.283000 #hub @Cosaur#8461: rip
+2016-05-03 18:46:33.885000 #hub @Blazy#2607: <@!109738696768516096> Said I will lure him out with dat female dragon ass he loves so he can FUCK THE SHIT OUT OF IT UNTIL HIS SCAILY DICK EXPLODES INTO GLUE
+2016-05-03 18:46:43.342000 #hub @Cheesecake#2039: xD
+2016-05-03 18:47:05.691000 #hub @Cosaur#8461: wtf?
+2016-05-03 18:47:15.605000 #hub @Cheesecake#2039: xD
+2016-05-03 18:47:18.214000 #hub @Cheesecake#2039: dont ask
+2016-05-03 18:47:30.412000 #hub @Cosaur#8461: i am
+2016-05-03 18:47:36.274000 #hub @Cheesecake#2039: aww
+2016-05-03 18:47:40.794000 #hub @Cheesecake#2039: well...
+2016-05-03 18:47:42.811000 #hub @Cheesecake#2039: yea
+2016-05-03 18:47:49.125000 #hub @Cheesecake#2039: a challenge happened
+2016-05-03 18:47:53.194000 #hub @Cheesecake#2039: ill show u later
+2016-05-03 18:48:36.815000 #hub @Blazy#2607: Cosaur vs cheesee so far in this giveaway challange
+2016-05-03 18:48:41.377000 #hub @Blazy#2607: Any more takers?
+2016-05-03 18:49:00.770000 #hub @Cheesecake#2039: dont tell anyone
+2016-05-03 18:49:05.493000 #hub @Cheesecake#2039: they will steals it
+2016-05-03 19:14:06.948000 #hub @Cosaur#8461: Hey @here Here is a chance to win a free steam game! Consider this setting: You are tasked with killing the alrighty blaze the dragon, however you need to lure/trick him so that he will come out his cave, Your going to get famous and alot of money for doing this - What do you do?
+2016-05-03 19:14:12.301000 #hub @Cosaur#8461: we need more repl
+2016-05-03 19:14:12.301000 #hub @Cosaur#8461: EDIT: 
+Before: we need more repl
+After: we need more replies
+2016-05-03 19:15:41.428000 #hub @Thefactionspug#8732: *Alrighty* @Cosaur
+2016-05-03 19:15:46.323000 #hub @Thefactionspug#8732: ...
+2016-05-03 19:15:48.240000 #hub @Thefactionspug#8732: Why
+2016-05-03 19:15:56.455000 #hub @Thefactionspug#8732: Did you mean? Almighty?
+2016-05-03 19:16:32.196000 #hub @Cosaur#8461: i copyed blazys post
+2016-05-03 19:19:31.124000 #hub @Nordir#2186: I would put a chest full of food , outside of his cave. I would then hide in it and lock the chest. When Blazy the dragon would find the smell of the food, he would come out and try to open the chest, but , he would not be able to open the chest because it's locked, thefore he would eat the chest. Me, being inside the chest, would cut it open , and slice the dragons belly. Blazy the dragon would bleed to death
+2016-05-03 19:21:25.942000 #hub @Blazy#2607: Me like
+2016-05-03 19:21:36.737000 #hub @Blazy#2607: Smart.
+2016-05-03 19:22:14.265000 #hub @Nordir#2186: lol
+2016-05-03 19:22:48.115000 #hub @Blazy#2607: Btw @Cosaur Hobbit takes the lead
+2016-05-03 19:23:05.403000 #hub @Cosaur#8461: ok then awnser number 2
+2016-05-03 19:25:53.605000 #hub @Cosaur#8461: I get a marching band to parade around the cave entrance and create noise. when he comes out i have them run away makeing more noise. when he comes out i pour molten gold on him so heget really annoyed. finally i get a giant heat resistant container wich i drop over him when he breaths fire on them so he burns himself alive...
+2016-05-03 19:27:37.035000 #hub @Nordir#2186: alright. Answer number 2
+2016-05-03 19:27:50.850000 #hub @Cosaur#8461: oooo this awnser fight
+2016-05-03 19:33:50.992000 #hub @Cosaur#8461: I get a marching band to parade around the cave entrance and create noise. when he gets up i have them run away makeing more noise. finnaly when his head omes out i have a child facing away from him so he starts going slow then i drop a 40m cubed block of the heaviest metal on him. plutonium. he he dosnt die then the radiation will. how did i get the metal. the town was deesperate. also drug money
+2016-05-03 19:34:19.561000 #hub @Cosaur#8461: rext pipeweed
+2016-05-03 19:34:59.220000 #hub @Nordir#2186: I would walk up to the cave, where blazy was sleeping. I would secretly fill the cave with gas that causes hallucinations. When he would wake up (a very short time after i put the gas) he would starting hallucinating. He would be driven crazy , he would rush out of the cave , flying straight forward, and crash into a mountain. He would fall unconscious. Then, I would rush to the sight, rip out his heart, and eat it, as a sacrifice to Eru. The dragons soul would then be sent to Mandos , where it would be tortured. Then , Mandos would burn the soul and the dragon forgotten forever.
+2016-05-03 19:35:21.806000 #hub @Cosaur#8461: why si the dragon blazy suddenly
+2016-05-03 19:35:35.664000 #hub @Cosaur#8461: its blaze
+2016-05-03 19:59:15.297000 #hub @Blazy#2607: Btw
+2016-05-03 19:59:16.513000 #hub @Blazy#2607: Nodir
+2016-05-03 19:59:19.292000 #hub @Blazy#2607: You won
+2016-05-03 19:59:27.427000 #hub @Thefactionspug#8732: wait wait wait
+2016-05-03 19:59:30.132000 #hub @Thefactionspug#8732: me turn?
+2016-05-03 19:59:34.326000 #hub @Blazy#2607: sure.
+2016-05-03 19:59:52.559000 #hub @Toothy#9103: `\u0295 表u1d25表u0294 < Woo man those peoples are crazy! Anyways, anybody want some fish?`
+2016-05-03 19:59:59.417000 #hub @Blazy#2607: !tsnacktime
+2016-05-03 19:59:59.622000 #hub @Toothy#9103: I'm not sure where Toohy is.. He's already 7 minutes late!
+2016-05-03 20:00:04.961000 #hub @Blazy#2607: DamNITT
+2016-05-03 20:00:06.693000 #hub @Blazy#2607: TOOTHYYy
+2016-05-03 20:00:20.500000 #hub @Blazy#2607: !thelp
+2016-05-03 20:00:49.691000 #hub @Thefactionspug#8732: I would creep into the cave and throw in some dragon feed and the sweet smell of new subs and followers! then when he finds the last piece outside of the cave i will be there with diamond armour and a massive axe
+2016-05-03 20:00:58.869000 #hub @Blazy#2607: eh
+2016-05-03 20:01:05.093000 #hub @Blazy#2607: Still like <@!163000211898105856> more
+2016-05-03 20:01:08.975000 #hub @Thefactionspug#8732: \U0001f626
+2016-05-03 20:02:06.052000 #hub @Thefactionspug#8732: Like my new nick? <@!101702710314672128>
+2016-05-03 20:02:11.827000 #hub @Blazy#2607: !tpug
+2016-05-03 20:02:12.224000 #hub @Toothy#9103: PUGGGGGGGGGGGGGGGGGGGGGGGG BAEEE
+2016-05-03 20:02:15.817000 #hub @Thefactionspug#8732: \U0001f604
+2016-05-03 20:07:42.777000 #hub @Toothy#9103: `\u0295 表u1d25表u0294 < Aight, I gotta head out! I'll be back with more, don worry Rawr~`
+2016-05-03 20:07:55.731000 #hub @Blazy#2607: !tsnacktime
+2016-05-03 20:07:55.833000 #hub @Toothy#9103: I'm not sure where Toohy is.. He's already 15 minutes late!
+2016-05-03 20:08:06.634000 #hub @Blazy#2607: !awh

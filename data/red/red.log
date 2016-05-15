@@ -1,0 +1,36 @@
+[23/04/2016 14:36] red 555 Traceback (most recent call last):
+  File "red.py", line 548, in <module>
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "red.py", line 543, in main
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\client.py", line 572, in connect
+    raise ClientException('Unexpected websocket closure received')
+discord.errors.ClientException: Unexpected websocket closure received
+
+[10/05/2016 20:02] red 537 Traceback (most recent call last):
+  File "red.py", line 530, in <module>
+    loop.run_until_complete(main())
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "red.py", line 525, in main
+    yield from bot.connect()
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\client.py", line 574, in connect
+    yield from self.close()
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\client.py", line 589, in close
+    yield from self.voice.disconnect()
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\voice_client.py", line 328, in disconnect
+    yield from self.main_ws.send(utils.to_json(payload))
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\websockets\protocol.py", line 261, in send
+    yield from self.write_frame(opcode, data)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\websockets\protocol.py", line 421, in write_frame
+    "in the {} state".format(self.state_name))
+websockets.exceptions.InvalidState: Cannot write to a WebSocket in the CLOSED state
+
