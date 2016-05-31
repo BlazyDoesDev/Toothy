@@ -1,6 +1,7 @@
 {
     "148132520666333185" : {
         "adminrestart" : "Bot is restarting!, Be right back!",
+        "adminready" : "Ready for actioN!",
         "adminshutdownhardwork" : "Im going to hit the den now, Im tired and Blazy says i need to sleep so yeh, Bai Rawr~",
         "cheese" : "Senpai Is Cheese, Add me on snapchat: legitcheesecake | Follow me on insta: legitcheesecakeyt | FOLLOW ME ON BEAM: Cheesecake",
         "disrespectful" : "Dont disrespect other users, message a staff member if you have a problem",
@@ -35,10 +36,11 @@
     },
     "175273532295610368" : {
         "adminready" : "Toothy Ready for action!",
+        "adminrestart" : "Bot is restarting!, Be right back!",
         "ops" : "- Current ops are Blazy, Cheesecake - Only these people may run the admin commands such as !adminrestart"
     },
     "176272268945653760" : {
-        "adminready" : "Toothy Ready for action! Rawr~ @here",
+        "adminready" : "Ready for actioN!",
         "adminrestart" : "Bot is restarting!, Be right back!",
         "cheesesnaps" : "Add senpai on Snapchat: https://cdn.discordapp.com/attachments/176272268945653760/176279065869680641/IMG_8938.JPG",
         "snap" : "Add the dev of this bot on snapchat! - http://i.imgur.com/BbV8efY.jpg",
