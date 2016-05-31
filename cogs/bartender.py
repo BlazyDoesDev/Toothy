@@ -131,7 +131,7 @@ class Bartender:
                 fileIO("data/economy/bank.json", "save", bank)
                 await self.bot.say("Account opened for {}. Current balance: {}".format(botuser.mention, str(bank[botuser.id]["balance"])))             
             else:
-                await self.bot.say("{} already has an account at the Twentysix bank.".format(botuser.mention))
+                await self.bot.say("{} already has an account at the Toothy bank.".format(botuser.mention))
             fileIO(SETTINGS, "save", self.settings)
         else:
             await send_cmd_help(ctx)

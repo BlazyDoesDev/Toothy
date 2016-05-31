@@ -39,14 +39,14 @@ class Economy:
 
     @_bank.command(pass_context=True, no_pm=True)
     async def register(self, ctx):
-        """Registers an account at the Twentysix bank"""
+        """Registers an account at the Toothy bank"""
         user = ctx.message.author
         if user.id not in self.bank:
             self.bank[user.id] = {"name" : user.name, "balance" : 100}
             fileIO("data/economy/bank.json", "save", self.bank)
             await self.bot.say("{} Account opened. Current balance: {}".format(user.mention, str(self.check_balance(user.id))))
         else:
-            await self.bot.say("{} You already have an account at the Twentysix bank.".format(user.mention))
+            await self.bot.say("{} You already have an account at the Toothy bank.".format(user.mention))
 
     @_bank.command(pass_context=True)
     async def balance(self, ctx, user : discord.Member=None):
@@ -58,7 +58,7 @@ class Economy:
             if self.account_check(user.id):
                 await self.bot.say("{} Your balance is: {}".format(user.mention, str(self.check_balance(user.id))))
             else:
-                await self.bot.say("{} You don't have an account at the Twentysix bank. Type {}bank register to open one.".format(user.mention, ctx.prefix))
+                await self.bot.say("{} You don't have an account at the Toothy bank. Type {}bank register to open one.".format(user.mention, ctx.prefix))
         else:
             if self.account_check(user.id):
                 balance = self.check_balance(user.id)
@@ -126,7 +126,7 @@ class Economy:
     async def leaderboard(self, top : int=10):
         """Prints out the leaderboard
 
-        Defaults to top 10""" #Originally coded by Airenkun - edited by irdumb
+        Defaults to top 10""" #Originally coded by Airenkun - edited by irdumb - Kappa - blazy 2k16
         if top < 1:
             top = 10
         bank_sorted = sorted(self.bank.items(), key=lambda x: x[1]["balance"], reverse=True)
