@@ -6,7 +6,9 @@
         "disrespectful" : "Dont disrespect other users, message a staff member if you have a problem",
         "dontrun" : "Dont Run that command, Its ment for staff only.",
         "dontrunwarn" : "We have told you, that command is for  staff only! You have been issued a warning",
+        "eat" : "- eats {author.name} -",
         "headset" : "ALL HAIL THE ORANGE HEADSET",
+        "noplay" : "Please stop playing this song, Or you may be blacklisted",
         "nospam" : "Dont spam! warning!",
         "pug" : "PUGGGGGGGGGGGGGGGGGGGGGGGG BAEEE",
         "ready" : "Toothy Ready for action! Rawr~ @here",
@@ -25,6 +27,10 @@
         "warnspam" : "Dont spam, No one likes spam or you for that case [Warning]",
         "warnwrongchan" : "Hey!, This is the wrong channel! - You have been issued a warning by the person who ran this command!"
     },
+    "174792141682376704" : {
+        "adminready" : "Toothy ready for action!",
+        "lol" : "lol"
+    },
     "175273532295610368" : {
         "adminready" : "Toothy Ready for action!"
     },
@@ -40,5 +46,31 @@
         "adminrestart" : "Restarting! BRB Rawr~",
         "adminstop" : "Im going to bed now bai Rawr~",
         "tpug" : "PUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUG"
+    },
+    "183973247442878464" : {
+        "adminrestart" : "Bot is restarting!, Be right back!",
+        "adminshutdownhardwork" : "Im going to hit the den now, Im tired and Blazy says i need to sleep so yeh, Bai Rawr~",
+        "cheese" : "Senpai Is Cheese, Add me on snapchat: legitcheesecake | Follow me on insta: legitcheesecakeyt | FOLLOW ME ON BEAM: Cheesecake",
+        "disrespectful" : "Dont disrespect other users, message a staff member if you have a problem",
+        "dontrun" : "Dont Run that command, Its ment for staff only.",
+        "dontrunwarn" : "We have told you, that command is for  staff only! You have been issued a warning",
+        "headset" : "ALL HAIL THE ORANGE HEADSET",
+        "nospam" : "Dont spam! warning!",
+        "pug" : "PUGGGGGGGGGGGGGGGGGGGGGGGG BAEEE",
+        "ready" : "Toothy Ready for action! Rawr~ @here",
+        "shiterganda" : "CANT YOU FEEEL THE SHITAGANDY IN THAT LAST MESSAGE",
+        "skipwarn" : "Warning - Dont skip songs without reason,",
+        "snap" : "Add me on snapchat!: http://i.imgur.com/BbV8efY.jpg",
+        "staffprobs" : "If you have an issue with staff, Do !tticket [Your issue] Instead of spamming this  chat, Thanks!",
+        "suck" : "!play https://www.youtube.com/watch?v=sv4q7JtPsW0",
+        "ticketclose" : "Ticket Closed, Any more mention of this ticket will be warnable, tickets are always open if you need more help.",
+        "ticketopen" : "Ticket Opened!, Details are as followed (see below)",
+        "twitter" : "Follow me on twitter! @TheBlazingDRA",
+        "vic" : "VICTORY!!!",
+        "warndisrespect" : "Warning! - Do not be disrespectfull to other members or staff members!",
+        "warnmicspam" : "Hey!, Stop mic spamming! - You have been issued a warning (applies to person above the modorator who ran this command, Unless spefied diffrently)",
+        "warnnoticket" : "We have already told you to use !tticket - Not spam this chat. You have now been issued a warning",
+        "warnspam" : "Dont spam, No one likes spam or you for that case [Warning]",
+        "warnwrongchan" : "Hey!, This is the wrong channel! - You have been issued a warning by the person who ran this command!"
     }
 }
