@@ -21,7 +21,7 @@ except:
     pil_available = False
 try:
     import emoji
-    emoji_available = False
+    emoji_available = True
 except:
     emoji_available = True
 

@@ -54,7 +54,7 @@ class Streams:
         """Checks if beam stream is online"""
         online = await self.beam_online(stream)
         if online is True:
-            await self.bot.say("https://beam.pro/{} is online! @9".format(stream))
+            await self.bot.say("https://beam.pro/{} is online!".format(stream))
         elif online is False:
             await self.bot.say(stream + " is offline.")
         elif online is None:
