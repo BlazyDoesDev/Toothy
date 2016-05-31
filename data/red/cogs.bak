@@ -2,7 +2,7 @@
     "cogs.admin" : true,
     "cogs.alias" : true,
     "cogs.audio" : true,
-    "cogs.bartender" : true,
+    "cogs.bartender" : false,
     "cogs.botinfo" : true,
     "cogs.custom" : true,
     "cogs.customcom" : true,

@@ -79,5 +79,8 @@
         "warnnoticket" : "We have already told you to use !tticket - Not spam this chat. You have now been issued a warning",
         "warnspam" : "Dont spam, No one likes spam or you for that case [Warning]",
         "warnwrongchan" : "Hey!, This is the wrong channel! - You have been issued a warning by the person who ran this command!"
+    },
+    "97381051067822080" : {
+        "test" : "test"
     }
 }

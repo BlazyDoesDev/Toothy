@@ -2,7 +2,8 @@
     {
         "ALREADY_ONLINE" : false,
         "CHANNELS" : [
-            "163982799429304320"
+            "163982799429304320",
+            "162307711898222593"
         ],
         "NAME" : "Blazy"
     },
@@ -19,5 +20,12 @@
             "163982799429304320"
         ],
         "NAME" : "MagicMonkey"
+    },
+    {
+        "ALREADY_ONLINE" : false,
+        "CHANNELS" : [
+            "162307711898222593"
+        ],
+        "NAME" : "OfficialNebula"
     }
 ]
