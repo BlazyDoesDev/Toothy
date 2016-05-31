@@ -470,14 +470,14 @@ class Owner:
 
     @commands.command()
     async def uptime(self):
-        """Shows Red's uptime"""
+        """Shows Toothy's uptime"""
         up = abs(self.bot.uptime - int(time.perf_counter()))
         up = str(datetime.timedelta(seconds=up))
-        await self.bot.say("`Uptime: {}`".format(up))
+        await self.bot.say("`I have been alive for : {}`".format(up))
 
     @commands.command()
     async def version(self):
-        """Shows Red's current version"""
+        """Shows Toothys's current version"""
         response = self.bot.loop.run_in_executor(None, self._get_version)
         result = await asyncio.wait_for(response, timeout=10)
         await self.bot.say(result)
