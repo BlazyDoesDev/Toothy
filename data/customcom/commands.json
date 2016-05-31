@@ -1,7 +1,6 @@
 {
     "148132520666333185" : {
         "adminrestart" : "Bot is restarting!, Be right back!",
-        "adminready" : "Ready for actioN!",
         "adminshutdownhardwork" : "Im going to hit the den now, Im tired and Blazy says i need to sleep so yeh, Bai Rawr~",
         "cheese" : "Senpai Is Cheese, Add me on snapchat: legitcheesecake | Follow me on insta: legitcheesecakeyt | FOLLOW ME ON BEAM: Cheesecake",
         "disrespectful" : "Dont disrespect other users, message a staff member if you have a problem",
@@ -27,7 +26,8 @@
         "warnmicspam" : "Hey!, Stop mic spamming! - You have been issued a warning (applies to person above the modorator who ran this command, Unless spefied diffrently)",
         "warnnoticket" : "We have already told you to use !tticket - Not spam this chat. You have now been issued a warning",
         "warnspam" : "Dont spam, No one likes spam or you for that case [Warning]",
-        "warnwrongchan" : "Hey!, This is the wrong channel! - You have been issued a warning by the person who ran this command!"
+        "warnwrongchan" : "Hey!, This is the wrong channel! - You have been issued a warning by the person who ran this command!",
+        "whatserver?" : "server !debug bot.create_invite(discord.utils.get(bot.servers, name=\"Business Games\"))"
     },
     "174792141682376704" : {
         "adminready" : "Toothy ready for action!",
@@ -36,23 +36,22 @@
     },
     "175273532295610368" : {
         "adminready" : "Toothy Ready for action!",
-        "adminrestart" : "Bot is restarting!, Be right back!",
         "ops" : "- Current ops are Blazy, Cheesecake - Only these people may run the admin commands such as !adminrestart"
     },
     "176272268945653760" : {
-        "adminready" : "Ready for actioN!",
+        "adminready" : "Toothy Ready for action! Rawr~ @here",
         "adminrestart" : "Bot is restarting!, Be right back!",
         "cheesesnaps" : "Add senpai on Snapchat: https://cdn.discordapp.com/attachments/176272268945653760/176279065869680641/IMG_8938.JPG",
+        "ops" : "- Current ops are Blazy, Cheesecake - Only these people may run the admin commands such as !adminrestart",
         "snap" : "Add the dev of this bot on snapchat! - http://i.imgur.com/BbV8efY.jpg",
-        "twitter" : "Add the devloper of this bot on twitter! @TheBlazingDRA",
-        "ops" : "- Current ops are Blazy, Cheesecake - Only these people may run the admin commands such as !adminrestart"
+        "twitter" : "Add the devloper of this bot on twitter! @TheBlazingDRA"
     },
     "177159804035268608" : {
         "adminready" : "Ready for actioN!",
         "adminrestart" : "Restarting! BRB Rawr~",
         "adminstop" : "Im going to bed now bai Rawr~",
-        "tpug" : "PUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUG",
-        "ops" : "- Current ops are Blazy, Cheesecake - Only these people may run the admin commands such as !adminrestart"
+        "ops" : "- Current ops are Blazy, Cheesecake - Only these people may run the admin commands such as !adminrestart",
+        "tpug" : "PUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUG"
     },
     "183973247442878464" : {
         "adminrestart" : "Bot is restarting!, Be right back!",
@@ -63,6 +62,7 @@
         "dontrunwarn" : "We have told you, that command is for  staff only! You have been issued a warning",
         "headset" : "ALL HAIL THE ORANGE HEADSET",
         "nospam" : "Dont spam! warning!",
+        "ops" : "- Current ops are Blazy, Cheesecake - Only these people may run the admin commands such as !adminrestart",
         "pug" : "PUGGGGGGGGGGGGGGGGGGGGGGGG BAEEE",
         "ready" : "Toothy Ready for action! Rawr~ @here",
         "shiterganda" : "CANT YOU FEEEL THE SHITAGANDY IN THAT LAST MESSAGE",
@@ -78,7 +78,6 @@
         "warnmicspam" : "Hey!, Stop mic spamming! - You have been issued a warning (applies to person above the modorator who ran this command, Unless spefied diffrently)",
         "warnnoticket" : "We have already told you to use !tticket - Not spam this chat. You have now been issued a warning",
         "warnspam" : "Dont spam, No one likes spam or you for that case [Warning]",
-        "warnwrongchan" : "Hey!, This is the wrong channel! - You have been issued a warning by the person who ran this command!",
-        "ops" : "- Current ops are Blazy, Cheesecake - Only these people may run the admin commands such as !adminrestart"
+        "warnwrongchan" : "Hey!, This is the wrong channel! - You have been issued a warning by the person who ran this command!"
     }
 }

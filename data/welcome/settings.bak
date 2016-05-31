@@ -1,0 +1,27 @@
+{
+    "110373943822540800" : {
+        "CHANNEL" : "110373943822540800",
+        "GREETING" : "Welcome {0.name} to {1.name}!",
+        "ON" : false
+    },
+    "148132520666333185" : {
+        "CHANNEL" : "148132520666333185",
+        "GREETING" : "Welcome {0.name} to {1.name}!",
+        "ON" : false
+    },
+    "175273532295610368" : {
+        "CHANNEL" : "175273532295610368",
+        "GREETING" : "Welcome {0.name} to {1.name}!",
+        "ON" : false
+    },
+    "185255145074982912" : {
+        "CHANNEL" : "185255145074982912",
+        "GREETING" : "Welcome {0.name} to {1.name}!",
+        "ON" : false
+    },
+    "187257439127601152" : {
+        "CHANNEL" : "187257439127601152",
+        "GREETING" : "Welcome {0.name} to {1.name}!",
+        "ON" : false
+    }
+}

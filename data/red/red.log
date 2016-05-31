@@ -34,3 +34,678 @@ discord.errors.ClientException: Unexpected websocket closure received
     "in the {} state".format(self.state_name))
 websockets.exceptions.InvalidState: Cannot write to a WebSocket in the CLOSED state
 
+[26/05/2016 19:38] ERROR red load_cogs 321: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "red.py", line 318, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\owner.py", line 493, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\ext\commands\bot.py", line 513, in load_extension
+    lib.setup(self)
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\downloader.py", line 293, in setup
+    n = Downloader(bot)
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\downloader.py", line 21, in __init__
+    self.update_repos()
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\downloader.py", line 259, in update_repos
+    self.update_repo(name)
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\downloader.py", line 270, in update_repo
+    call(["git", "clone", url, "data/downloader/" + name])
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\subprocess.py", line 560, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\subprocess.py", line 950, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\subprocess.py", line 1220, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+[26/05/2016 19:44] ERROR owner load 68: You don't have Pillow installed, run
+```pip3 install pillow```And try again
+Traceback (most recent call last):
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\owner.py", line 59, in load
+    self._load_cog(module)
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\owner.py", line 493, in _load_cog
+    except SyntaxError as e:
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\ext\commands\bot.py", line 513, in load_extension
+    lib.setup(self)
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\bar.py", line 184, in setup
+    raise RuntimeError("You don't have Pillow installed, run\n```pip3 install pillow```And try again")
+RuntimeError: You don't have Pillow installed, run
+```pip3 install pillow```And try again
+[26/05/2016 19:45] ERROR owner load 68: You don't have Pillow installed, run
+```pip3 install pillow```And try again
+Traceback (most recent call last):
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\owner.py", line 59, in load
+    self._load_cog(module)
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\owner.py", line 493, in _load_cog
+    except SyntaxError as e:
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\ext\commands\bot.py", line 513, in load_extension
+    lib.setup(self)
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\bartender.py", line 184, in setup
+    raise RuntimeError("You don't have Pillow installed, run\n```pip3 install pillow```And try again")
+RuntimeError: You don't have Pillow installed, run
+```pip3 install pillow```And try again
+[26/05/2016 19:49] DEBUG audio queue_manager 1581: not playing anything on sid 183973247442878464, attempting to start a new song.
+[26/05/2016 19:49] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[26/05/2016 19:49] DEBUG audio _play 645: starting to play on "The Divide"
+[26/05/2016 19:49] DEBUG audio _guarantee_downloaded 435: sid 183973247442878464 not in downloaders, making one
+[26/05/2016 19:49] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 183973247442878464
+[26/05/2016 19:49] DEBUG audio disconnect_timer 1506: putting sid 183973247442878464 in stop loop, no player
+[26/05/2016 19:49] DEBUG audio _guarantee_downloaded 456: sid 183973247442878464 wants to play songid VBlFHuCzPgY
+[26/05/2016 19:49] DEBUG audio _guarantee_downloaded 461: cache miss on song id VBlFHuCzPgY
+[26/05/2016 19:50] DEBUG audio disconnect_timer 1506: putting sid 183973247442878464 in stop loop, no player
+[26/05/2016 19:50] DEBUG audio queue_manager 1581: not playing anything on sid 183973247442878464, attempting to start a new song.
+[26/05/2016 19:50] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[26/05/2016 19:50] DEBUG audio _play 645: starting to play on "The Divide"
+[26/05/2016 19:50] DEBUG audio _guarantee_downloaded 435: sid 183973247442878464 not in downloaders, making one
+[26/05/2016 19:50] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 183973247442878464
+[26/05/2016 19:50] DEBUG audio _guarantee_downloaded 456: sid 183973247442878464 wants to play songid Nf8FCLT8S6A
+[26/05/2016 19:50] DEBUG audio _guarantee_downloaded 461: cache miss on song id Nf8FCLT8S6A
+[26/05/2016 19:50] DEBUG audio _create_ffmpeg_player 317: reconnect chan id for sid 183973247442878464 is wrong, fixing
+[26/05/2016 19:50] DEBUG audio _create_ffmpeg_player 338: making player on sid 183973247442878464
+[26/05/2016 19:50] DEBUG audio _play 662: starting player on sid 183973247442878464
+[26/05/2016 19:50] DEBUG audio queue_manager 1596: set now_playing for sid 183973247442878464
+[26/05/2016 19:52] DEBUG audio _queue 1349: queueing to the actual queue for sid 183973247442878464
+[26/05/2016 19:52] DEBUG audio _download_next 386: downloader ID's mismatch on sid 183973247442878464 gonna start dl-ing the next thing on the queue id WCm3bS6wXvk
+[26/05/2016 19:52] DEBUG audio disconnect_timer 1514: putting sid 183973247442878464 in stop loop
+[26/05/2016 19:52] DEBUG audio queue_manager 1581: not playing anything on sid 183973247442878464, attempting to start a new song.
+[26/05/2016 19:52] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[26/05/2016 19:52] DEBUG audio _play 645: starting to play on "The Divide"
+[26/05/2016 19:52] DEBUG audio _guarantee_downloaded 441: sid 183973247442878464 in downloaders but wrong url
+[26/05/2016 19:52] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 183973247442878464
+[26/05/2016 19:52] DEBUG audio _guarantee_downloaded 456: sid 183973247442878464 wants to play songid WCm3bS6wXvk
+[26/05/2016 19:52] DEBUG audio _guarantee_downloaded 471: cache hit on song id WCm3bS6wXvk
+[26/05/2016 19:52] DEBUG audio _create_ffmpeg_player 332: killed old player
+[26/05/2016 19:52] DEBUG audio _create_ffmpeg_player 338: making player on sid 183973247442878464
+[26/05/2016 19:52] DEBUG audio _play 662: starting player on sid 183973247442878464
+[26/05/2016 19:52] DEBUG audio queue_manager 1596: set now_playing for sid 183973247442878464
+[26/05/2016 19:52] DEBUG audio disconnect_timer 1506: putting sid 183973247442878464 in stop loop, no player
+[26/05/2016 19:52] DEBUG audio queue_manager 1581: not playing anything on sid 183973247442878464, attempting to start a new song.
+[26/05/2016 19:52] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[26/05/2016 19:52] DEBUG audio _play 645: starting to play on "The Divide"
+[26/05/2016 19:52] DEBUG audio _guarantee_downloaded 435: sid 183973247442878464 not in downloaders, making one
+[26/05/2016 19:52] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 183973247442878464
+[26/05/2016 19:52] DEBUG audio _guarantee_downloaded 456: sid 183973247442878464 wants to play songid ywbN6YK0qus
+[26/05/2016 19:52] DEBUG audio _guarantee_downloaded 461: cache miss on song id ywbN6YK0qus
+[26/05/2016 19:52] DEBUG audio _create_ffmpeg_player 338: making player on sid 183973247442878464
+[26/05/2016 19:52] DEBUG audio _play 662: starting player on sid 183973247442878464
+[26/05/2016 19:52] DEBUG audio queue_manager 1596: set now_playing for sid 183973247442878464
+[26/05/2016 19:53] DEBUG audio disconnect_timer 1514: putting sid 183973247442878464 in stop loop
+[26/05/2016 19:53] DEBUG audio queue_manager 1581: not playing anything on sid 183973247442878464, attempting to start a new song.
+[26/05/2016 19:53] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[26/05/2016 19:53] DEBUG audio _play 645: starting to play on "The Divide"
+[26/05/2016 19:53] DEBUG audio _guarantee_downloaded 441: sid 183973247442878464 in downloaders but wrong url
+[26/05/2016 19:53] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 183973247442878464
+[26/05/2016 19:53] DEBUG audio _guarantee_downloaded 456: sid 183973247442878464 wants to play songid 6TutIVpWf4U
+[26/05/2016 19:53] DEBUG audio _guarantee_downloaded 461: cache miss on song id 6TutIVpWf4U
+[26/05/2016 19:53] DEBUG audio _create_ffmpeg_player 338: making player on sid 183973247442878464
+[26/05/2016 19:53] DEBUG audio _play 662: starting player on sid 183973247442878464
+[26/05/2016 19:53] DEBUG audio queue_manager 1596: set now_playing for sid 183973247442878464
+[26/05/2016 19:54] DEBUG audio _queue 1349: queueing to the actual queue for sid 183973247442878464
+[26/05/2016 19:54] DEBUG audio _download_next 386: downloader ID's mismatch on sid 183973247442878464 gonna start dl-ing the next thing on the queue id ndxqorYNyvY
+[26/05/2016 19:54] DEBUG audio queue_manager 1581: not playing anything on sid 183973247442878464, attempting to start a new song.
+[26/05/2016 19:54] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[26/05/2016 19:54] DEBUG audio _play 645: starting to play on "The Divide"
+[26/05/2016 19:54] DEBUG audio _guarantee_downloaded 456: sid 183973247442878464 wants to play songid ndxqorYNyvY
+[26/05/2016 19:54] DEBUG audio _guarantee_downloaded 471: cache hit on song id ndxqorYNyvY
+[26/05/2016 19:54] DEBUG audio _create_ffmpeg_player 332: killed old player
+[26/05/2016 19:54] DEBUG audio _create_ffmpeg_player 338: making player on sid 183973247442878464
+[26/05/2016 19:54] DEBUG audio _play 662: starting player on sid 183973247442878464
+[26/05/2016 19:54] DEBUG audio queue_manager 1596: set now_playing for sid 183973247442878464
+[26/05/2016 19:55] DEBUG audio _queue 1349: queueing to the actual queue for sid 183973247442878464
+[26/05/2016 19:55] DEBUG audio _download_next 386: downloader ID's mismatch on sid 183973247442878464 gonna start dl-ing the next thing on the queue id 79bH0Pe2uG8
+[26/05/2016 19:55] DEBUG audio queue_manager 1581: not playing anything on sid 183973247442878464, attempting to start a new song.
+[26/05/2016 19:55] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[26/05/2016 19:55] DEBUG audio _play 645: starting to play on "The Divide"
+[26/05/2016 19:55] DEBUG audio _guarantee_downloaded 456: sid 183973247442878464 wants to play songid 79bH0Pe2uG8
+[26/05/2016 19:55] DEBUG audio _guarantee_downloaded 471: cache hit on song id 79bH0Pe2uG8
+[26/05/2016 19:55] DEBUG audio _create_ffmpeg_player 332: killed old player
+[26/05/2016 19:55] DEBUG audio _create_ffmpeg_player 338: making player on sid 183973247442878464
+[26/05/2016 19:55] DEBUG audio _play 662: starting player on sid 183973247442878464
+[26/05/2016 19:55] DEBUG audio queue_manager 1596: set now_playing for sid 183973247442878464
+[26/05/2016 19:55] DEBUG audio disconnect_timer 1514: putting sid 183973247442878464 in stop loop
+[26/05/2016 20:00] DEBUG audio disconnect_timer 1523: dcing from sid 183973247442878464 after 300s
+[28/05/2016 09:10] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[28/05/2016 09:10] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[28/05/2016 09:10] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[28/05/2016 09:10] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[28/05/2016 09:10] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[28/05/2016 09:10] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[28/05/2016 09:10] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid mQT9v-QsCPc
+[28/05/2016 09:10] DEBUG audio _guarantee_downloaded 461: cache miss on song id mQT9v-QsCPc
+[28/05/2016 09:10] DEBUG audio _create_ffmpeg_player 317: reconnect chan id for sid 148132520666333185 is wrong, fixing
+[28/05/2016 09:10] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[28/05/2016 09:10] DEBUG audio _play 662: starting player on sid 148132520666333185
+[28/05/2016 09:10] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[28/05/2016 09:12] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[28/05/2016 09:12] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[28/05/2016 09:12] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[28/05/2016 09:12] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[28/05/2016 09:12] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[28/05/2016 09:12] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[28/05/2016 09:12] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid 41tIUr_ex3g
+[28/05/2016 09:12] DEBUG audio _guarantee_downloaded 461: cache miss on song id 41tIUr_ex3g
+[28/05/2016 09:12] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[28/05/2016 09:12] DEBUG audio _play 662: starting player on sid 148132520666333185
+[28/05/2016 09:12] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[28/05/2016 09:13] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[28/05/2016 09:13] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id ddd7QcYOOdE
+[28/05/2016 09:13] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[28/05/2016 09:13] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[28/05/2016 09:13] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[28/05/2016 09:13] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[28/05/2016 09:13] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid ddd7QcYOOdE
+[28/05/2016 09:13] DEBUG audio _guarantee_downloaded 471: cache hit on song id ddd7QcYOOdE
+[28/05/2016 09:13] DEBUG audio _create_ffmpeg_player 332: killed old player
+[28/05/2016 09:13] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[28/05/2016 09:13] DEBUG audio _play 662: starting player on sid 148132520666333185
+[28/05/2016 09:13] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[28/05/2016 09:18] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[28/05/2016 09:23] DEBUG audio disconnect_timer 1523: dcing from sid 148132520666333185 after 300s
+[28/05/2016 20:55] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[28/05/2016 20:55] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[28/05/2016 20:55] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[28/05/2016 20:55] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[28/05/2016 20:55] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[28/05/2016 20:55] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[28/05/2016 20:55] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid mQT9v-QsCPc
+[28/05/2016 20:55] DEBUG audio _guarantee_downloaded 471: cache hit on song id mQT9v-QsCPc
+[28/05/2016 20:55] DEBUG audio _create_ffmpeg_player 317: reconnect chan id for sid 148132520666333185 is wrong, fixing
+[28/05/2016 20:55] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[28/05/2016 20:55] DEBUG audio _play 662: starting player on sid 148132520666333185
+[28/05/2016 20:55] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[28/05/2016 20:59] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[28/05/2016 21:00] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[28/05/2016 21:00] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[28/05/2016 21:00] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[28/05/2016 21:00] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[28/05/2016 21:00] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[28/05/2016 21:00] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid a01QQZyl-_I
+[28/05/2016 21:00] DEBUG audio _guarantee_downloaded 461: cache miss on song id a01QQZyl-_I
+[28/05/2016 21:00] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[28/05/2016 21:00] DEBUG audio _play 662: starting player on sid 148132520666333185
+[28/05/2016 21:00] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[28/05/2016 21:00] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[28/05/2016 21:01] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[28/05/2016 21:01] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[28/05/2016 21:01] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[28/05/2016 21:01] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[28/05/2016 21:01] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[28/05/2016 21:01] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid 9WbCfHutDSE
+[28/05/2016 21:01] DEBUG audio _guarantee_downloaded 461: cache miss on song id 9WbCfHutDSE
+[28/05/2016 21:01] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[28/05/2016 21:01] DEBUG audio _play 662: starting player on sid 148132520666333185
+[28/05/2016 21:01] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[28/05/2016 21:01] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[28/05/2016 21:01] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[28/05/2016 21:01] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[28/05/2016 21:01] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[28/05/2016 21:01] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[28/05/2016 21:01] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[28/05/2016 21:01] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid mQT9v-QsCPc
+[28/05/2016 21:01] DEBUG audio _guarantee_downloaded 471: cache hit on song id mQT9v-QsCPc
+[28/05/2016 21:01] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[28/05/2016 21:01] DEBUG audio _play 662: starting player on sid 148132520666333185
+[28/05/2016 21:01] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[28/05/2016 21:02] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[28/05/2016 21:02] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id 6rXgLjjpU8k
+[28/05/2016 21:02] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id CpOFi81x8FE
+[28/05/2016 21:03] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id 6rXgLjjpU8k
+[28/05/2016 21:03] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id CpOFi81x8FE
+[28/05/2016 21:05] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[28/05/2016 21:05] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[28/05/2016 21:05] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[28/05/2016 21:05] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[28/05/2016 21:05] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[28/05/2016 21:05] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[28/05/2016 21:05] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid CpOFi81x8FE
+[28/05/2016 21:05] DEBUG audio _guarantee_downloaded 471: cache hit on song id CpOFi81x8FE
+[28/05/2016 21:05] DEBUG audio _create_ffmpeg_player 332: killed old player
+[28/05/2016 21:05] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[28/05/2016 21:05] DEBUG audio _play 662: starting player on sid 148132520666333185
+[28/05/2016 21:05] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[28/05/2016 21:06] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[28/05/2016 21:09] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[28/05/2016 21:09] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[28/05/2016 21:09] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[28/05/2016 21:09] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[28/05/2016 21:09] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[28/05/2016 21:09] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid xFGJc5Afnqk
+[28/05/2016 21:09] DEBUG audio _guarantee_downloaded 461: cache miss on song id xFGJc5Afnqk
+[28/05/2016 21:10] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[28/05/2016 21:10] DEBUG audio _play 662: starting player on sid 148132520666333185
+[28/05/2016 21:10] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[28/05/2016 21:11] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[28/05/2016 21:11] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id 45eSOGguEew
+[28/05/2016 21:11] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[28/05/2016 21:11] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[28/05/2016 21:11] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[28/05/2016 21:11] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[28/05/2016 21:11] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[28/05/2016 21:11] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[28/05/2016 21:11] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[28/05/2016 21:11] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid AZvR9SFFxpA
+[28/05/2016 21:11] DEBUG audio _guarantee_downloaded 461: cache miss on song id AZvR9SFFxpA
+[28/05/2016 21:12] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[28/05/2016 21:12] DEBUG audio _play 662: starting player on sid 148132520666333185
+[28/05/2016 21:12] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[28/05/2016 21:15] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[28/05/2016 21:18] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[28/05/2016 21:18] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[28/05/2016 21:18] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[28/05/2016 21:18] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[28/05/2016 21:18] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[28/05/2016 21:18] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid Nf8FCLT8S6A
+[28/05/2016 21:18] DEBUG audio _guarantee_downloaded 471: cache hit on song id Nf8FCLT8S6A
+[28/05/2016 21:18] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[28/05/2016 21:18] DEBUG audio _play 662: starting player on sid 148132520666333185
+[28/05/2016 21:18] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[28/05/2016 21:22] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[31/05/2016 10:26] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 10:26] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 10:26] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 10:26] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[31/05/2016 10:26] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 10:26] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[31/05/2016 10:26] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid syXq0ICfFDg
+[31/05/2016 10:26] DEBUG audio _guarantee_downloaded 461: cache miss on song id syXq0ICfFDg
+[31/05/2016 10:26] DEBUG audio _create_ffmpeg_player 317: reconnect chan id for sid 148132520666333185 is wrong, fixing
+[31/05/2016 10:26] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 10:26] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 10:26] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 10:27] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[31/05/2016 10:27] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id SbcvsteO0lw
+[31/05/2016 10:27] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[31/05/2016 10:27] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 10:27] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 10:27] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 10:27] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid SbcvsteO0lw
+[31/05/2016 10:27] DEBUG audio _guarantee_downloaded 471: cache hit on song id SbcvsteO0lw
+[31/05/2016 10:27] DEBUG audio _create_ffmpeg_player 332: killed old player
+[31/05/2016 10:27] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 10:27] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 10:27] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 10:29] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[31/05/2016 10:29] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id dZfHru3m1y8
+[31/05/2016 10:30] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[31/05/2016 10:30] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[31/05/2016 10:30] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 10:30] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 10:30] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 10:30] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid dZfHru3m1y8
+[31/05/2016 10:30] DEBUG audio _guarantee_downloaded 471: cache hit on song id dZfHru3m1y8
+[31/05/2016 10:30] DEBUG audio _create_ffmpeg_player 332: killed old player
+[31/05/2016 10:30] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 10:30] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 10:30] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 10:30] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id zfgTpwVtJCI
+[31/05/2016 10:30] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 10:30] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 10:30] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 10:30] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid zfgTpwVtJCI
+[31/05/2016 10:30] DEBUG audio _guarantee_downloaded 471: cache hit on song id zfgTpwVtJCI
+[31/05/2016 10:30] DEBUG audio _create_ffmpeg_player 332: killed old player
+[31/05/2016 10:30] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 10:30] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 10:30] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 10:30] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[31/05/2016 10:35] DEBUG audio disconnect_timer 1523: dcing from sid 148132520666333185 after 300s
+[31/05/2016 10:42] DEBUG audio queue_manager 1581: not playing anything on sid 185255145074982912, attempting to start a new song.
+[31/05/2016 10:42] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 10:42] DEBUG audio _play 645: starting to play on "Business Games"
+[31/05/2016 10:42] DEBUG audio _guarantee_downloaded 435: sid 185255145074982912 not in downloaders, making one
+[31/05/2016 10:42] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 185255145074982912
+[31/05/2016 10:42] DEBUG audio disconnect_timer 1506: putting sid 185255145074982912 in stop loop, no player
+[31/05/2016 10:43] DEBUG audio queue_manager 1581: not playing anything on sid 185255145074982912, attempting to start a new song.
+[31/05/2016 10:43] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 10:43] DEBUG audio _play 645: starting to play on "Business Games"
+[31/05/2016 10:43] DEBUG audio _guarantee_downloaded 441: sid 185255145074982912 in downloaders but wrong url
+[31/05/2016 10:43] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 185255145074982912
+[31/05/2016 10:43] DEBUG audio _guarantee_downloaded 456: sid 185255145074982912 wants to play songid bybfEqBgL2Q
+[31/05/2016 10:43] DEBUG audio _guarantee_downloaded 461: cache miss on song id bybfEqBgL2Q
+[31/05/2016 10:44] DEBUG audio _create_ffmpeg_player 317: reconnect chan id for sid 185255145074982912 is wrong, fixing
+[31/05/2016 10:44] DEBUG audio _create_ffmpeg_player 338: making player on sid 185255145074982912
+[31/05/2016 10:44] DEBUG audio _play 662: starting player on sid 185255145074982912
+[31/05/2016 10:44] DEBUG audio queue_manager 1596: set now_playing for sid 185255145074982912
+[31/05/2016 10:44] DEBUG audio cache_manager 1482: cache too large (153.06578699999994 > 147.21983302735276), dumping
+[31/05/2016 10:44] DEBUG audio _dump_cache 393: required cache files:
+	['zfgTpwVtJCI', 'bybfEqBgL2Q']
+[31/05/2016 10:44] DEBUG audio _dump_cache 396: desired cache files:
+	['zfgTpwVtJCI', 'bybfEqBgL2Q']
+[31/05/2016 10:44] DEBUG audio _dump_cache 419: dumped 105.75842999999995 MB of audio files
+[31/05/2016 10:47] DEBUG audio _queue 1349: queueing to the actual queue for sid 185255145074982912
+[31/05/2016 10:47] DEBUG audio _download_next 386: downloader ID's mismatch on sid 185255145074982912 gonna start dl-ing the next thing on the queue id JtlEcTqUNCM
+[31/05/2016 10:47] DEBUG audio queue_manager 1581: not playing anything on sid 185255145074982912, attempting to start a new song.
+[31/05/2016 10:47] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 10:47] DEBUG audio _play 645: starting to play on "Business Games"
+[31/05/2016 10:47] DEBUG audio _guarantee_downloaded 456: sid 185255145074982912 wants to play songid JtlEcTqUNCM
+[31/05/2016 10:47] DEBUG audio _guarantee_downloaded 471: cache hit on song id JtlEcTqUNCM
+[31/05/2016 10:47] DEBUG audio _create_ffmpeg_player 332: killed old player
+[31/05/2016 10:47] DEBUG audio _create_ffmpeg_player 338: making player on sid 185255145074982912
+[31/05/2016 10:47] DEBUG audio _play 662: starting player on sid 185255145074982912
+[31/05/2016 10:47] DEBUG audio queue_manager 1596: set now_playing for sid 185255145074982912
+[31/05/2016 10:48] DEBUG audio disconnect_timer 1514: putting sid 185255145074982912 in stop loop
+[31/05/2016 10:52] DEBUG audio queue_manager 1581: not playing anything on sid 185255145074982912, attempting to start a new song.
+[31/05/2016 10:52] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 10:52] DEBUG audio _play 645: starting to play on "Business Games"
+[31/05/2016 10:52] DEBUG audio _guarantee_downloaded 441: sid 185255145074982912 in downloaders but wrong url
+[31/05/2016 10:52] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 185255145074982912
+[31/05/2016 10:52] DEBUG audio _guarantee_downloaded 456: sid 185255145074982912 wants to play songid lw3pFwCGuT4
+[31/05/2016 10:52] DEBUG audio _guarantee_downloaded 461: cache miss on song id lw3pFwCGuT4
+[31/05/2016 10:52] DEBUG audio _create_ffmpeg_player 338: making player on sid 185255145074982912
+[31/05/2016 10:52] DEBUG audio _play 662: starting player on sid 185255145074982912
+[31/05/2016 10:52] DEBUG audio queue_manager 1596: set now_playing for sid 185255145074982912
+[31/05/2016 10:58] DEBUG audio disconnect_timer 1514: putting sid 185255145074982912 in stop loop
+[31/05/2016 11:03] DEBUG audio disconnect_timer 1523: dcing from sid 185255145074982912 after 300s
+[31/05/2016 11:56] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 11:56] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 11:56] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 11:56] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[31/05/2016 11:56] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 11:56] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[31/05/2016 11:56] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid mQT9v-QsCPc
+[31/05/2016 11:56] DEBUG audio _guarantee_downloaded 461: cache miss on song id mQT9v-QsCPc
+[31/05/2016 11:56] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 11:56] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 11:56] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 11:57] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 11:57] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 11:57] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 11:57] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[31/05/2016 11:57] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 11:57] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid mQT9v-QsCPc
+[31/05/2016 11:57] DEBUG audio _guarantee_downloaded 471: cache hit on song id mQT9v-QsCPc
+[31/05/2016 11:57] DEBUG audio _create_ffmpeg_player 317: reconnect chan id for sid 148132520666333185 is wrong, fixing
+[31/05/2016 11:57] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 11:57] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 11:57] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 11:57] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[31/05/2016 11:57] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id VbfpW0pbvaU
+[31/05/2016 11:57] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[31/05/2016 12:01] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 12:01] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 12:01] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 12:01] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[31/05/2016 12:01] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 12:01] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[31/05/2016 12:01] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid VbfpW0pbvaU
+[31/05/2016 12:01] DEBUG audio _guarantee_downloaded 471: cache hit on song id VbfpW0pbvaU
+[31/05/2016 12:01] DEBUG audio _create_ffmpeg_player 332: killed old player
+[31/05/2016 12:01] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 12:01] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 12:01] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 12:01] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id dQw4w9WgXcQ
+[31/05/2016 12:02] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 12:02] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 12:02] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 12:02] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[31/05/2016 12:02] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 12:02] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[31/05/2016 12:02] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid dQw4w9WgXcQ
+[31/05/2016 12:02] DEBUG audio _guarantee_downloaded 471: cache hit on song id dQw4w9WgXcQ
+[31/05/2016 12:02] DEBUG audio _create_ffmpeg_player 332: killed old player
+[31/05/2016 12:02] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 12:02] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 12:02] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 12:02] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 12:02] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 12:02] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 12:02] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[31/05/2016 12:02] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 12:02] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid uJ_1HMAGb4k
+[31/05/2016 12:02] DEBUG audio _guarantee_downloaded 461: cache miss on song id uJ_1HMAGb4k
+[31/05/2016 12:02] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 12:02] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 12:02] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 12:02] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[31/05/2016 12:03] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 12:03] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 12:03] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid uJ_1HMAGb4k
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 471: cache hit on song id uJ_1HMAGb4k
+[31/05/2016 12:03] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[31/05/2016 12:03] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 12:03] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 12:03] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid uJ_1HMAGb4k
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 471: cache hit on song id uJ_1HMAGb4k
+[31/05/2016 12:03] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[31/05/2016 12:03] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 12:03] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 12:03] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid uJ_1HMAGb4k
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 471: cache hit on song id uJ_1HMAGb4k
+[31/05/2016 12:03] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[31/05/2016 12:03] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[31/05/2016 12:03] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 12:03] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 12:03] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[31/05/2016 12:03] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 12:04] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid uJ_1HMAGb4k
+[31/05/2016 12:04] DEBUG audio _guarantee_downloaded 471: cache hit on song id uJ_1HMAGb4k
+[31/05/2016 12:04] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 12:04] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 12:04] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 12:04] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[31/05/2016 12:04] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[31/05/2016 12:04] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 12:04] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 12:04] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 12:04] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[31/05/2016 12:04] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 12:04] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid 45eSOGguEew
+[31/05/2016 12:04] DEBUG audio _guarantee_downloaded 461: cache miss on song id 45eSOGguEew
+[31/05/2016 12:04] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 12:04] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 12:04] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 12:06] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[31/05/2016 12:11] DEBUG audio disconnect_timer 1523: dcing from sid 148132520666333185 after 300s
+[31/05/2016 18:45] ERROR red load_cogs 321: Command filter is already registered.
+Traceback (most recent call last):
+  File "red.py", line 318, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\owner.py", line 491, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\ext\commands\bot.py", line 513, in load_extension
+    lib.setup(self)
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\mod.py", line 657, in setup
+    bot.add_cog(n)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\ext\commands\bot.py", line 440, in add_cog
+    self.add_command(member)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\ext\commands\core.py", line 497, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command filter is already registered.
+[31/05/2016 18:51] ERROR red <module> 391: Traceback (most recent call last):
+  File "red.py", line 381, in <module>
+    loop.run_until_complete(main())
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "red.py", line 344, in main
+    owner_cog = load_cogs()
+  File "red.py", line 291, in load_cogs
+    bot.load_extension('cogs.owner')
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\ext\commands\bot.py", line 509, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 658, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 724, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "C:\Users\Blaz\Desktop\bot\Red-DiscordBot\cogs\owner.py", line 383
+    @commands.command(pass_context=True)
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+
+[31/05/2016 19:06] DEBUG audio queue_manager 1581: not playing anything on sid 187257439127601152, attempting to start a new song.
+[31/05/2016 19:06] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 19:06] DEBUG audio _play 645: starting to play on "Toothy Discord Bot Development"
+[31/05/2016 19:06] DEBUG audio _guarantee_downloaded 435: sid 187257439127601152 not in downloaders, making one
+[31/05/2016 19:06] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 187257439127601152
+[31/05/2016 19:06] DEBUG audio disconnect_timer 1506: putting sid 187257439127601152 in stop loop, no player
+[31/05/2016 19:06] DEBUG audio queue_manager 1581: not playing anything on sid 187257439127601152, attempting to start a new song.
+[31/05/2016 19:06] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 19:06] DEBUG audio _play 645: starting to play on "Toothy Discord Bot Development"
+[31/05/2016 19:06] DEBUG audio _guarantee_downloaded 435: sid 187257439127601152 not in downloaders, making one
+[31/05/2016 19:06] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 187257439127601152
+[31/05/2016 19:06] DEBUG audio _guarantee_downloaded 456: sid 187257439127601152 wants to play songid 45eSOGguEew
+[31/05/2016 19:06] DEBUG audio _guarantee_downloaded 471: cache hit on song id 45eSOGguEew
+[31/05/2016 19:06] DEBUG audio _create_ffmpeg_player 317: reconnect chan id for sid 187257439127601152 is wrong, fixing
+[31/05/2016 19:06] DEBUG audio _create_ffmpeg_player 338: making player on sid 187257439127601152
+[31/05/2016 19:06] DEBUG audio _play 662: starting player on sid 187257439127601152
+[31/05/2016 19:06] DEBUG audio queue_manager 1596: set now_playing for sid 187257439127601152
+[31/05/2016 19:06] DEBUG audio disconnect_timer 1506: putting sid 187257439127601152 in stop loop, no player
+[31/05/2016 19:06] DEBUG audio queue_manager 1581: not playing anything on sid 187257439127601152, attempting to start a new song.
+[31/05/2016 19:06] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 19:06] DEBUG audio _play 645: starting to play on "Toothy Discord Bot Development"
+[31/05/2016 19:06] DEBUG audio _guarantee_downloaded 441: sid 187257439127601152 in downloaders but wrong url
+[31/05/2016 19:06] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 187257439127601152
+[31/05/2016 19:06] DEBUG audio _guarantee_downloaded 456: sid 187257439127601152 wants to play songid 45eSOGguEew
+[31/05/2016 19:06] DEBUG audio _guarantee_downloaded 471: cache hit on song id 45eSOGguEew
+[31/05/2016 19:06] DEBUG audio _create_ffmpeg_player 338: making player on sid 187257439127601152
+[31/05/2016 19:06] DEBUG audio _play 662: starting player on sid 187257439127601152
+[31/05/2016 19:06] DEBUG audio queue_manager 1596: set now_playing for sid 187257439127601152
+[31/05/2016 19:11] DEBUG audio disconnect_timer 1514: putting sid 187257439127601152 in stop loop
+[31/05/2016 19:16] DEBUG audio disconnect_timer 1523: dcing from sid 187257439127601152 after 300s
+[31/05/2016 19:48] DEBUG audio queue_manager 1581: not playing anything on sid 187257439127601152, attempting to start a new song.
+[31/05/2016 19:48] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 19:48] DEBUG audio _play 645: starting to play on "Toothy Discord Bot Development"
+[31/05/2016 19:48] DEBUG audio _guarantee_downloaded 435: sid 187257439127601152 not in downloaders, making one
+[31/05/2016 19:48] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 187257439127601152
+[31/05/2016 19:48] DEBUG audio disconnect_timer 1506: putting sid 187257439127601152 in stop loop, no player
+[31/05/2016 19:48] DEBUG audio _guarantee_downloaded 456: sid 187257439127601152 wants to play songid IKCkWPIh1Kg
+[31/05/2016 19:48] DEBUG audio _guarantee_downloaded 461: cache miss on song id IKCkWPIh1Kg
+[31/05/2016 19:48] DEBUG audio _create_ffmpeg_player 317: reconnect chan id for sid 187257439127601152 is wrong, fixing
+[31/05/2016 19:48] DEBUG audio _create_ffmpeg_player 338: making player on sid 187257439127601152
+[31/05/2016 19:48] DEBUG audio _play 662: starting player on sid 187257439127601152
+[31/05/2016 19:48] DEBUG audio queue_manager 1596: set now_playing for sid 187257439127601152
+[31/05/2016 19:50] DEBUG audio disconnect_timer 1514: putting sid 187257439127601152 in stop loop
+[31/05/2016 19:55] DEBUG audio disconnect_timer 1523: dcing from sid 187257439127601152 after 300s
+[31/05/2016 20:00] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 20:00] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 20:00] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 20:00] DEBUG audio _guarantee_downloaded 435: sid 148132520666333185 not in downloaders, making one
+[31/05/2016 20:00] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 20:00] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid dBX9q8Cxrg8
+[31/05/2016 20:00] DEBUG audio _guarantee_downloaded 461: cache miss on song id dBX9q8Cxrg8
+[31/05/2016 20:00] DEBUG audio disconnect_timer 1506: putting sid 148132520666333185 in stop loop, no player
+[31/05/2016 20:00] DEBUG audio _create_ffmpeg_player 317: reconnect chan id for sid 148132520666333185 is wrong, fixing
+[31/05/2016 20:00] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 20:00] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 20:00] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 20:00] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[31/05/2016 20:00] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id _VvK9f-AnoI
+[31/05/2016 20:02] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 20:02] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 20:02] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 20:02] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid _VvK9f-AnoI
+[31/05/2016 20:02] DEBUG audio _guarantee_downloaded 471: cache hit on song id _VvK9f-AnoI
+[31/05/2016 20:02] DEBUG audio _create_ffmpeg_player 332: killed old player
+[31/05/2016 20:02] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 20:02] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 20:02] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 20:02] DEBUG audio _queue 1349: queueing to the actual queue for sid 148132520666333185
+[31/05/2016 20:02] DEBUG audio _download_next 386: downloader ID's mismatch on sid 148132520666333185 gonna start dl-ing the next thing on the queue id uJ_1HMAGb4k
+[31/05/2016 20:02] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 20:02] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 20:02] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 20:02] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[31/05/2016 20:02] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 20:02] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid uJ_1HMAGb4k
+[31/05/2016 20:02] DEBUG audio _guarantee_downloaded 471: cache hit on song id uJ_1HMAGb4k
+[31/05/2016 20:02] DEBUG audio _create_ffmpeg_player 332: killed old player
+[31/05/2016 20:02] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 20:02] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 20:02] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 20:03] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[31/05/2016 20:04] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 20:04] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 20:04] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 20:04] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[31/05/2016 20:04] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 20:04] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid pXRviuL6vMY
+[31/05/2016 20:04] DEBUG audio _guarantee_downloaded 461: cache miss on song id pXRviuL6vMY
+[31/05/2016 20:04] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 20:04] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 20:04] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 20:04] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[31/05/2016 20:04] DEBUG audio queue_manager 1581: not playing anything on sid 148132520666333185, attempting to start a new song.
+[31/05/2016 20:04] DEBUG audio queue_manager 1588: calling _play on the normal queue
+[31/05/2016 20:04] DEBUG audio _play 645: starting to play on "Blazy's Discord Server"
+[31/05/2016 20:04] DEBUG audio _guarantee_downloaded 441: sid 148132520666333185 in downloaders but wrong url
+[31/05/2016 20:04] DEBUG audio _guarantee_downloaded 447: starting our downloader for sid 148132520666333185
+[31/05/2016 20:04] DEBUG audio _guarantee_downloaded 456: sid 148132520666333185 wants to play songid 0t2tjNqGyJI
+[31/05/2016 20:04] DEBUG audio _guarantee_downloaded 461: cache miss on song id 0t2tjNqGyJI
+[31/05/2016 20:04] DEBUG audio _create_ffmpeg_player 338: making player on sid 148132520666333185
+[31/05/2016 20:04] DEBUG audio _play 662: starting player on sid 148132520666333185
+[31/05/2016 20:04] DEBUG audio queue_manager 1596: set now_playing for sid 148132520666333185
+[31/05/2016 20:07] DEBUG audio disconnect_timer 1514: putting sid 148132520666333185 in stop loop
+[31/05/2016 20:11] ERROR red <module> 391: Traceback (most recent call last):
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\gateway.py", line 346, in poll_event
+    msg = yield from self.recv()
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\websockets\protocol.py", line 296, in recv
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\client.py", line 403, in connect
+    yield from self.ws.poll_event()
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\gateway.py", line 351, in poll_event
+    raise ReconnectWebSocket() from e
+discord.gateway.ReconnectWebSocket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "red.py", line 381, in <module>
+    loop.run_until_complete(main())
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "red.py", line 376, in main
+    yield from bot.connect()
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\client.py", line 406, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\gateway.py", line 191, in from_client
+    ws = yield from websockets.connect(gateway, loop=client.loop, klass=cls)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\websockets\py35\client.py", line 19, in __await__
+    return (yield from self.client)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\site-packages\websockets\client.py", line 150, in connect
+    factory, wsuri.host, wsuri.port, **kwds)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\base_events.py", line 601, in create_connection
+    infos = f1.result()
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\concurrent\futures\thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Blaz\AppData\Local\Programs\Python\Python35-32\lib\socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+

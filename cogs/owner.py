@@ -235,7 +235,7 @@ class Owner:
     @_set.command(pass_context=True)
     @checks.is_owner()
     async def name(self, ctx, *, name):
-        """Sets Red's name"""
+        """Sets Toothy's name"""
         name = name.strip()
         if name != "":
             await self.bot.edit_profile(settings.password, username=name)
@@ -246,7 +246,7 @@ class Owner:
     @_set.command(pass_context=True, no_pm=True)
     @checks.is_owner()
     async def nickname(self, ctx, *, nickname=""):
-        """Sets Red's nickname
+        """Sets Toothy's nickname
 
         Leaving this empty will remove it."""
         nickname = nickname.strip()
@@ -262,7 +262,7 @@ class Owner:
     @_set.command(pass_context=True)
     @checks.is_owner()
     async def status(self, ctx, *, status=None):
-        """Sets Red's status
+        """Sets Toothy's status
 
         Leaving this empty will clear it."""
 
@@ -278,7 +278,7 @@ class Owner:
     @_set.command()
     @checks.is_owner()
     async def avatar(self, url):
-        """Sets Red's avatar"""
+        """Sets Toothy's avatar"""
         try:
             async with self.bot.session.get(url) as r:
                 data = await r.read()
@@ -294,7 +294,7 @@ class Owner:
     @_set.command(name="token")
     @checks.is_owner()
     async def _token(self, token):
-        """Sets Red's login token"""
+        """Sets Toothy's login token"""
         if len(token) < 50:
             await self.bot.say("Invalid token.")
         else:
@@ -307,7 +307,7 @@ class Owner:
     @commands.command()
     @checks.is_owner()
     async def shutdown(self):
-        """Shuts down Red"""
+        """Shuts down Toothy :("""
         await self.bot.logout()
 
     @commands.group(name="command", pass_context=True)
