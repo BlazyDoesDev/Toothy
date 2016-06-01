@@ -1,0 +1,8 @@
+        "adminready" : "Toothy ready for action!",
+        "warndisrespect" : "Warning! - Do not be disrespectfull to other members or staff members!",
+        "warnmicspam" : "Hey!, Stop mic spamming! - You have been issued a warning (applies to person above the modorator who ran this command, Unless spefied diffrently)",
+        "warnnoticket" : "We have already told you to use !tticket - Not spam this chat. You have now been issued a warning",
+        "warnspam" : "Dont spam, No one likes spam or you for that case [Warning]",
+        "warnwrongchan" : "Hey!, This is the wrong channel! - You have been issued a warning by the person who ran this command!",
+        "ticketclose" : "Ticket Closed, Any more mention of this ticket will be warnable, tickets are always open if you need more help.",
+        "ticketopen" : "Ticket Opened!, Details are as followed (see below)"
