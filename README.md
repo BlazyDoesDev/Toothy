@@ -1,5 +1,8 @@
 # Toothy
-<iframe src="https://discordapp.com/widget?id=187257439127601152&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+
+<!-- badges -->
+[![Documentation Status](https://readthedocs.org/projects/toothy/badge/?version=latest)](http://toothy.readthedocs.io/en/latest/?badge=latest)
+<!-- Badge End -->
 <br>
 <br>
 <br>
